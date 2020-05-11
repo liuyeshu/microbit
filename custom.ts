@@ -706,13 +706,13 @@ namespace microbit_小车 {
 
         switch (index) {
             case LightSensorIndex.LEFT: {
-                temp = pins.analogReadPin(AnalogPin.P2);
+                temp = pins.analogReadPin(AnalogPin.P1);
                 temp = temp * 100 /1024;
                 break;
             }
 
             case LightSensorIndex.RIGHT: {
-                temp = pins.analogReadPin(AnalogPin.P1);
+                temp = pins.analogReadPin(AnalogPin.P2);
                 temp = temp * 100 /1024;
                 break;
             }
